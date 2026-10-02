@@ -1,0 +1,11 @@
+# Icarus Verilog compiled sim binaries (regenerate with `make`)
+sim/*
+!sim/.gitkeep
+
+# Editor / OS cruft
+*.swp
+.DS_Store
+
+# Keep the waveform VCDs tracked -- they're the point of this folder.
+# (If repo size becomes an issue, remove large *.vcd from git and
+#  regenerate via `make wave-N256` instead.)

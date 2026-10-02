@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Save File — open alongside ntt_sim_N16.vcd or ntt_sim_N256.vcd
+[*]
+[dumpfile] "ntt_sim_N16.vcd"
+[timestart] 0
+[size] 1400 800
+*-13.1 200 1
+@28
+ntt_tb.clk
+ntt_tb.rst_n
+ntt_tb.i_start
+ntt_tb.o_busy
+ntt_tb.o_done
+@22
+ntt_tb.dut.u_fsm.state
+@28
+ntt_tb.dut.u_fsm.addr_a
+ntt_tb.dut.u_fsm.addr_b
+ntt_tb.dut.u_fsm.zeta_idx
+ntt_tb.dut.u_fsm.new_group
+ntt_tb.dut.u_fsm.zeta_valid
+ntt_tb.dut.u_fsm.zeta_cur
+ntt_tb.dut.u_fsm.bf_en
+ntt_tb.dut.u_fsm.bf_out_valid
+ntt_tb.dut.u_fsm.mem_a_rdata
+ntt_tb.dut.u_fsm.mem_b_rdata
+ntt_tb.dut.u_fsm.a_result
+ntt_tb.dut.u_fsm.b_result
+ntt_tb.dut.u_fsm.we_pulse
+ntt_tb.dut.u_fsm.last_bf_latched
+[pattern_trace] 1
+[sst_width] 250
